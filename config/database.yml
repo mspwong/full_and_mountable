@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  username: <%= `whoami` %>
+  host: 127.0.0.1
+  password:
+  database: full-and-mountable_development
+  min_messages: warning
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  username: <%= `whoami` %>
+  host: 127.0.0.1
+  password:
+  database: full-and-mountable_test
+  min_messages: warning
+
