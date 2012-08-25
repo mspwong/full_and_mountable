@@ -15,3 +15,6 @@ gem "jquery-rails"
 
 # To use debugger
 # gem 'debugger'
+
+# Database
+gem 'pg', '~> 0.13.2'
